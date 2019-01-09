@@ -5,3 +5,4 @@ To use: start an MQTT broker (I use Mosquitto), run a receiver, run a publisher
 For the CPP tests, install paho.mqtt.cpp following the instructions on github
 For the python tests, install the paho.mqtt python library, again using github instructions
 
+Note: the cpp examples are close to the paho ones
