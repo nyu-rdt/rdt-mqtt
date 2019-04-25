@@ -3,6 +3,7 @@ import paho.mqtt.client as mqtt
 def on_connect(client, userdata, flags, rc):
     print ("connected")
     client.subscribe("#") 
+    client.subscribe("$SYS/#") 
     client.subscribe("EXAMPLE/output/rawData")
     client.subscribe("EXAMPLE/input/rawData")
 
